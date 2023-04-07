@@ -1,0 +1,95 @@
+/* Set background color to light gray */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Add a border and some padding to all images */
+img {
+  border: 5px solid #fff;
+  padding: 10px;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the navigation menu */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Style the navigation links */
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Style the main content area */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+  color: #555;
+}
+
+.card{
+  width: 15rem;
+  top: 70px;
+  bottom: 50px;
+  display: inline-table;
+  flex-direction: row;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 10px 1px rgba(173, 170, 170, 0.253);
+}
+
+
+.card-text{
+  font-size: .9rem;
+  padding: 0.4rem
+}
+
+.container .row{
+  padding-top: -8px;
+  padding-bottom: 12px;
+  
+}
